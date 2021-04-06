@@ -30,6 +30,9 @@ body {
     color: white;
 }
 
+.select_container {
+    padding: 10px;
+}
 .song_container {
     display: inline-block;
     vertical-align: middle;

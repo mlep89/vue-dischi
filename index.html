@@ -21,6 +21,17 @@
     <main>
         <div class="main">
             <div id="root">
+                <div class="text-center select_container">
+                    <select name="" id="">
+                        <option value="0">Scegli il tuo genere</option>
+                        <option value="1">Rock</option>
+                        <option value="2">Pop</option>
+                        <option value="3">Jazz</option>
+                        <option value="4">Metal</option>
+                        <option value="5">Rock</option>
+                    </select> 
+                </div>
+    
                 <div class="song_container text-center" v-for="song in songs">
                     <img :src="song.poster" alt="">
                     <h3>{{song.title}}</h3>
